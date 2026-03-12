@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videografiya</title>
     <style>
-       * { margin: 0; padding: 0; box-sizing: border-box; } body, html { overflow-x: hidden; } .hero { padding-top: 8px; padding-bottom: 24px; } .container { max-width: 320px; margin: 0 auto; padding: 0 10px; position: relative; } .hero__top { display: flex; align-items: center; justify-content: space-between; max-width: 300px; width: 100%; background-color: #FF407F; border-radius: 8px; color: white; position: relative; z-index: 1; padding: 9px 16px; margin-bottom: 12px; } .hero__top-min { display: flex; align-items: center; gap: 4px; } .hero__top-min p { font-family: Caros, sans-serif; font-weight: 400; font-size: 12px; line-height: 100%; text-align: center; } .hero__title { font-family: Buyan, sans-serif; font-weight: 700; font-size: 42px; line-height: 110%; text-align: center; position: relative; z-index: 1; margin-bottom: 5px; } .hero__title span { color: #FF407F; } .hero__text { font-family: Manrope, sans-serif; font-weight: 400; font-size: 14px; line-height: 140%; text-align: center; margin-bottom: 10px; position: relative; z-index: 1; } .hero__images { max-width: 300px; width: 100%; height: auto; position: relative; z-index: 1; margin: 0 auto; display: flex; align-items: center; justify-content: center; } .hero__bg { max-width: 412px; width: 100%; margin: 0 auto; position: absolute; top: -0px; left: 50%; transform: translateX(-50%); } .hero__btn { max-width: 268px; width: 100%; border-radius: 13px; font-family: Buyan, sans-serif; font-weight: 700; font-size: 27px; line-height: 100%; background-image: url(./images/btn.avif); background-repeat: no-repeat; background-size: contain; cursor: pointer; background-position: center; margin: 0 auto; display: flex; align-items: center; justify-content: center; text-transform: uppercase; height: 75px; border: none; padding: 21px 0; color: #4C3A1E; } .button { max-width: 268px; width: 100%; box-shadow: 0px 3px 30px 0px #FDC56C80; padding: 25px 0 27px 0; font-family: Buyan, sans-serif; font-weight: 700; font-size: 22px; line-height: 100%; text-transform: uppercase; color: #644E2C; border-radius: 13px; border: none; margin: 0 auto; display: flex; align-items: center; justify-content: center; background-color: #BD8530; }
+       * { margin: 0; padding: 0; box-sizing: border-box; } body, html { overflow-x: hidden; } .hero { padding-top: 8px; padding-bottom: 24px; } .container { max-width: 320px; margin: 0 auto; padding: 0 10px; position: relative; } .hero__top { display: flex; align-items: center; justify-content: space-between; max-width: 300px; width: 100%; background-color: #FF407F; border-radius: 8px; color: white; position: relative; z-index: 1; padding: 9px 16px; margin-bottom: 12px; } .hero__top-min { display: flex; align-items: center; gap: 4px; } .hero__top-min p { font-family: Caros, sans-serif; color: black; font-weight: 400; font-size: 12px; line-height: 100%; text-align: center; } .hero__title { font-family: Buyan, sans-serif; font-weight: 700; font-size: 42px; line-height: 110%; text-align: center; position: relative; z-index: 1; margin-bottom: 5px; } .hero__title span { color: #FF407F; } .hero__text { font-family: Manrope, sans-serif; font-weight: 400; font-size: 14px; line-height: 140%; text-align: center; margin-bottom: 10px; position: relative; z-index: 1; } .hero__images { max-width: 300px; width: 100%; height: auto; position: relative; z-index: 1; margin: 0 auto; display: flex; align-items: center; justify-content: center; } .hero__bg { max-width: 412px; width: 100%; margin: 0 auto; position: absolute; top: -0px; left: 50%; transform: translateX(-50%); } .hero__btn { max-width: 268px; width: 100%; border-radius: 13px; font-family: Buyan, sans-serif; font-weight: 700; font-size: 27px; line-height: 100%; background-image: url(./images/btn.avif); background-repeat: no-repeat; background-size: contain; cursor: pointer; background-position: center; margin: 0 auto; display: flex; align-items: center; justify-content: center; text-transform: uppercase; height: 75px; border: none; padding: 21px 0; color: #4C3A1E; } .button { max-width: 268px; width: 100%; box-shadow: 0px 3px 30px 0px #FDC56C80; padding: 25px 0 27px 0; font-family: Buyan, sans-serif; font-weight: 700; font-size: 22px; line-height: 100%; text-transform: uppercase; color: #644E2C; border-radius: 13px; border: none; margin: 0 auto; display: flex; align-items: center; justify-content: center; background-color: #BD8530; }
     </style>
     <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
     <noscript>
@@ -16,8 +16,7 @@
 
 <body>
 
-    <main>
-
+<main>
     <section class="hero">
         <img class="hero__bg" src="./images/bg.png" loading="lazy" decoding="async" width="412" height="506" alt="bg">
         <div class="hero__container container">
@@ -40,7 +39,7 @@
             <img class="hero__images" src="./images/speaker.avif" loading="lazy" decoding="async" width="300"
                 height="240" alt="speaker">
 
-            <button class="hero__btn registerBtn">kurs dasturini ko'rish</button>
+            <button type="button" class="hero__btn registerBtn">kurs dasturini ko'rish</button>
         </div>
     </section>
 
@@ -89,7 +88,7 @@
                 </div>
             </div>
 
-            <button class="hero__btn registerBtn" style="font-size: 22px; padding: 23px 0 24px 0;">kursda qatnashmoqchiman</button>
+            <button type="button" class="hero__btn registerBtn" style="font-size: 22px; padding: 23px 0 24px 0;">kursda qatnashmoqchiman</button>
         </div>
     </section>
 
@@ -169,7 +168,7 @@
                 </ul>
             </div>
 
-            <button class="hero__btn registerBtn">kursda qatnashaman</button>
+            <button type="button" class="hero__btn registerBtn">kursda qatnashaman</button>
         </div>
     </section>
 
@@ -252,7 +251,7 @@
                 </div>
             </div>
 
-            <button class="hero__btn registerBtn">kursda qatnashaman</button>
+            <button type="button" class="hero__btn registerBtn">kursda qatnashaman</button>
         </div>
     </section>
 
@@ -277,7 +276,7 @@
                 </ul>
 
                 <h5 class="tariff__subtitle">narxi: 500$</h5>
-                <button class="hero__btn registerBtn">darslarni boshlash</button>
+                <button type="button" class="hero__btn registerBtn">darslarni boshlash</button>
             </div>
 
             <div class="tariff__box">
@@ -302,7 +301,7 @@
                 </ul>
 
                 <h5 class="tariff__subtitles">narxi: 700$</h5>
-                <button class="hero__btn registerBtn">darslarni boshlash</button>
+                <button type="button" class="hero__btn registerBtn">darslarni boshlash</button>
             </div>
         </div>
     </section>
@@ -349,7 +348,7 @@
                         <li>Yangi tanishlar orttirish</li>
                     </ul>
 
-                    <button class="hero__btn registerBtn">2-yo'lni tanlayman</button>
+                    <button type="button" class="hero__btn registerBtn">2-yo'lni tanlayman</button>
                 </div>
             </div>
         </div>
@@ -368,6 +367,7 @@
             </a>
         </div>
     </section>
+</main>
 
 
     <footer class="footer">
@@ -375,13 +375,12 @@
             <p class="text">Meral Yusupova 2026</p>
         </div>
     </footer>
-</main>
 
     <!-- Modal -->
     <div id="registrationModal" class="homeModal" style="display: none">
         <div class="homeModalOverlay"></div>
         <div class="homeFormContainer">
-            <button class="closeButton" id="closeModalBtn" aria-label="Modalni yopish" title="Yopish">
+            <button type="button" class="closeButton" id="closeModalBtn" aria-label="Modalni yopish" title="Yopish">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
                     <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
                         stroke-linecap="round" />
@@ -409,7 +408,7 @@
 
                     <div class="phone-input-container">
                         <!-- LEFT: country -->
-                        <button type="button" class="selected-country" id="selectedCountry">
+                        <button type="button" type="button" class="selected-country" id="selectedCountry">
                             <span class="selected-flag" id="selectedCountryFlag">🇺🇿</span>
 
                             <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -436,7 +435,7 @@
                     </p>
                 </div>
 
-                <button type="submit" class="HomeFormBtn" id="submitBtn">
+                <button type="button" type="submit" class="HomeFormBtn" id="submitBtn">
                     DAVOM ETISH
                 </button>
             </form>
